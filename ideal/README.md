@@ -25,11 +25,11 @@ Each pin and its function is covered in the table below.
 |  Pin Label | Function  |  Power/Input/Output | Notes |
 |------------|-----------|---------------------|-------|
 |  VM        |  Motor Voltage |  Power |  This is where you provide power for the motors (2.2V to 13.5V) | 
+| VCC        | Logic Voltage  | Power | This is the voltage to power the chip and talk to the microcontroller (2.7V to 5.5V) |
+| GND       | Ground        | Ppwer     | Common Ground for both motor voltage and logic voltage (all GND pins are connected) |
 
 
-		
-VCC	Logic Voltage	Power	This is the voltage to power the chip and talk to the microcontroller (2.7V to 5.5V)
-GND	Ground	Power	Common Ground for both motor voltage and logic voltage (all GND pins are connected)
+
 STBY	Standby	Input	Allows the H-bridges to work when high (has a pulldown resistor so it must actively pulled high)
 AIN1/BIN1	Input 1 for channels A/B	Input	One of the two inputs that determines the direction.
 AIN2/BIN2	Input 2 for channels A/B	Input	One of the two inputs that determines the direction.
