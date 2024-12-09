@@ -47,3 +47,14 @@ Now, for a quick overview of how to control each of the channels. If you are usi
 
 Don't forget `STBY` must be high for the motors to drive. 
 
+### Demo Code
+
+In the `code` folder and targeted for Arduino
+
+* `/examples` - Example sketches for the library (.ino). Run these from the Arduino IDE.
+* `/extras` - Additional documentation for the user. These files are ignored by the IDE.
+*  `/src` - Source files for the library (.cpp, .h).
+*  `keywords.txt` - Keywords from this library that will be highlighted in the Arduino IDE.
+*  `library.properties` - General library properties for the Arduino package manager.
+
+Good :four_leaf_clover:!
