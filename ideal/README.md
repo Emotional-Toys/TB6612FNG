@@ -35,3 +35,15 @@ Each pin and its function is covered in the table below.
 | A02/B02	 |  Output 2 for channels A/B | Output | One of the two outputs to connect the motor| 
 
 Now, for a quick overview of how to control each of the channels. If you are using an Arduino, don't worry about this too much as the library takes care of all of this for you. If you are using a different control platform, pay attention. When the outputs are set to High/Low your motor will run. When they are set to Low/High the motor will run in the opposite direction. In both cases, the speed is controlled by the PWM input.
+
+| In1 | In2 | PWM | Out1 | Out2 |     Mode    |
+|:---:|:---:|:---:|:----:|:----:|:-----------:|
+| H   | H   | H/L | L    | L    | Short brake |
+| L   | H   | H   | L    | H    | CCW         |
+| L   | H   | L   | L    | L    | Short brake |
+| H   | L   | H   | H    | L    | CW          |
+| H   | L   | L   | L    | L    | Short brake |
+| L   | L   | H   | OFF  | OFF  | Stop        |
+
+Don't forget `STBY` must be high for the motors to drive. 
+
