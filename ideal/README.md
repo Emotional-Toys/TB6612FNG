@@ -47,6 +47,12 @@ Now, for a quick overview of how to control each of the channels. If you are usi
 
 Don't forget `STBY` must be high for the motors to drive. 
 
+### The Build
+
+The pair of drivers will be wired according to the following pattern.
+
+![fly](/ideal/images/motor-driver-build.png)
+
 ### Demo Code
 
 In the `code` folder and targeted for Arduino
