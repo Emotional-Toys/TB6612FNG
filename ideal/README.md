@@ -23,13 +23,11 @@ Let's discuss the pinout for the TB6612FNG breakout. We basically have three typ
 Each pin and its function is covered in the table below.
 
 |  Pin Label | Function  |  Power/Input/Output | Notes |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|------------|-----------|---------------------|-------|
+|  VM        |  Motor Voltage |  Power |  This is where you provide power for the motors (2.2V to 13.5V) | 
 
 
-VM	Motor Voltage	Power	This is where you provide power for the motors (2.2V to 13.5V)
+		
 VCC	Logic Voltage	Power	This is the voltage to power the chip and talk to the microcontroller (2.7V to 5.5V)
 GND	Ground	Power	Common Ground for both motor voltage and logic voltage (all GND pins are connected)
 STBY	Standby	Input	Allows the H-bridges to work when high (has a pulldown resistor so it must actively pulled high)
